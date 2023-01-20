@@ -3,9 +3,9 @@ import SignIn from './Pages/SignIn';
 import Header from './Elements/Header';
 import SignUp from './Pages/SignUp';
 import {
-  BrowserRouter,
   Routes,
   Route,
+  MemoryRouter,
 } from 'react-router-dom';
 import Statistics from './Pages/Statistics';
 import AccountInfoPage from './Pages/AccountInfoPage';
@@ -16,7 +16,6 @@ import { HeaderLayout } from './Elements/HeaderLayout';
 
 export default function AppRoutes() {
   return (
-    <BrowserRouter>
       <Routes>
         <Route path="/signin" element={<SignIn />} />
         <Route path="/signup" element={<SignUp />} />
@@ -29,6 +28,5 @@ export default function AppRoutes() {
           <Route path="*" element={<PageNotFound />} />
         </Route>
       </Routes>
-    </BrowserRouter>
   );
 }
