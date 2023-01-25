@@ -17,10 +17,14 @@
     "@fontsource/roboto": "^4.5.8",
     "@mui/icons-material": "^5.11.0",
     "@mui/material": "latest",
+    "formik": "^2.2.9",
     "react": "latest",
     "react-dom": "latest",
+    "react-redux": "^8.0.5",
     "react-router-dom": "^6.7.0",
-    "react-scripts": "latest"
+    "react-scripts": "latest",
+    "redux": "^4.2.0",
+    "yup": "^0.32.11"
   },
   "browserslist": {
     "production": [

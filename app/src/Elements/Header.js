@@ -6,9 +6,8 @@ import Typography from '@mui/material/Typography';
 function Header() {
   const sections  = [
     { title: 'My account', url: '/myaccount' },
-    { title: 'Feed', url: '/feed' },
-    { title: 'Pages', url: '/pages' },
-    { title: 'Statistics', url: '/statistics' },
+    { title: 'My feed', url: '/feed' },
+    { title: 'All Pages', url: '/' },
   ];
   const title = 'Innoter';
 

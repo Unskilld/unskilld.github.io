@@ -27,11 +27,11 @@ const StatisticsBox = styled(Box)(() => ({
 }));
 
 
-export default function StatisticsCard() {
+export default function StatisticsCard(props) {
     return (
         <StatisticsBox>
-            <StatisticsNumber >0</StatisticsNumber>
-            <StatisticsText >Mock data</StatisticsText>
+            <StatisticsNumber >{props.data.value}</StatisticsNumber>
+            <StatisticsText >{props.data.fieldName}</StatisticsText>
         </StatisticsBox>
     );
 }

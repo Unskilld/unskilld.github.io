@@ -1,4 +1,4 @@
-import Header from "../Elements/Header";
+import Header from "../../Elements/Header";
 import { Box, Grid } from "@mui/material";
 import { styled } from "@mui/system";
 import { useNavigate } from "react-router-dom";
