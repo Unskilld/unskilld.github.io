@@ -26,8 +26,8 @@ export default function SinglePost() {
                     </ListItem>
                 </List>
             </Stack>
-        <Typography marginLeft={8} marginRight={8}>Content:</Typography>
-        <Typography marginLeft={8} marginRight={8}>{postData.postContent}</Typography>
+            <Typography marginLeft={8} marginRight={8}>Content:</Typography>
+            <Typography marginLeft={8} marginRight={8}>{postData.postContent}</Typography>
         </>
     );
 }

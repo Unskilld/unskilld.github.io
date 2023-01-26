@@ -22,10 +22,10 @@ export default function SinglePage() {
                 </List>
                 <List>
                     <ListItem>
-                        <Link to='/page/edit'>Update your page info</Link>
+                        <Link to='/pages/page/edit'>Update your page info</Link>
                     </ListItem>
                     <ListItem>
-                        <Link to='/followrequests'>Follow requests</Link>
+                        <Link to='/pages/page/followrequests'>Follow requests</Link>
                     </ListItem>
                     <ListItem>
                         <Link to='/page/statistics'>Statistics</Link>
