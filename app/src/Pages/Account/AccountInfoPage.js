@@ -26,7 +26,7 @@ export default function AccountInfoPage(props) {
                 </List>
             </Grid>
             <Grid item >
-                <Link to='/accountedit'>Update your page info</Link>
+                <Link to='/myaccount/edit'>Update your account info</Link>
             </Grid>
         </Grid>
     );
