@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.js": "/static/js/main.e5ad46ae.js",
+    "main.js": "/static/js/main.e2d4fadc.js",
     "static/media/cocacolazero.png": "/static/media/cocacolazero.6ef69775c8f43c74189e.png",
     "index.html": "/index.html",
-    "main.e5ad46ae.js.map": "/static/js/main.e5ad46ae.js.map"
+    "main.e2d4fadc.js.map": "/static/js/main.e2d4fadc.js.map"
   },
   "entrypoints": [
-    "static/js/main.e5ad46ae.js"
+    "static/js/main.e2d4fadc.js"
   ]
 }
