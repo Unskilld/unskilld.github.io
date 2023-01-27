@@ -28,7 +28,7 @@ export default function SinglePage() {
                         <Link to='/pages/page/followrequests'>Follow requests</Link>
                     </ListItem>
                     <ListItem>
-                        <Link to='/page/statistics'>Statistics</Link>
+                        <Link to='/pages/page/statistics'>Statistics</Link>
                     </ListItem>
                 </List>
             </Stack>

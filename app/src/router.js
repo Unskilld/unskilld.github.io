@@ -25,24 +25,24 @@ import postData from './Pages/Posts/postdata';
 
 export default function AppRoutes() {
   return (
-      <Routes>
-        <Route path="/signin" element={<SignIn />} />
-        <Route path="/signup" element={<SignUp />} />
-        <Route element=<HeaderLayout /> >
-          <Route path="/" element={<PagesPage/>} />
-          <Route path="/myaccount" element={<AccountInfoPage userdata={userdata} />} />
-          <Route path="/myaccount/edit" element={<AccountEditPage userdata={userdata} />} />
-          <Route path="/feed" element={<FeedPage />} />
-          <Route path="/pages/new" element={<PageCreate />} />
-          <Route path="/pages/page" element={<SinglePage />} />
-          <Route path="/pages/page/edit" element={<PageEdit pageData={pageData} />} />
-          <Route path="/pages/page/followrequests" element={<FollowRequests />} />
-          <Route path="/pages/page/statistics" element={<Statistics />} />
-          <Route path="/pages/page/post" element={<SinglePost />} />
-          <Route path="/pages/page/post/edit" element={<PostEdit postData={postData} />} />
-          <Route path="/pages/page/post/new" element={<PostCreate />} />
-          <Route path="*" element={<PageNotFound />} />
-        </Route>
-      </Routes>
+    <Routes>
+      <Route path="/signin" element={<SignIn />} />
+      <Route path="/signup" element={<SignUp />} />
+      <Route element=<HeaderLayout /> >
+        <Route path="/" element={<PagesPage />} />
+        <Route path="/myaccount" element={<AccountInfoPage userdata={userdata} />} />
+        <Route path="/myaccount/edit" element={<AccountEditPage userdata={userdata} />} />
+        <Route path="/feed" element={<FeedPage />} />
+        <Route path="/pages/new" element={<PageCreate />} />
+        <Route path="/pages/page" element={<SinglePage />} />
+        <Route path="/pages/page/edit" element={<PageEdit pageData={pageData} />} />
+        <Route path="/pages/page/followrequests" element={<FollowRequests />} />
+        <Route path="/pages/page/statistics" element={<Statistics />} />
+        <Route path="/pages/page/post" element={<SinglePost />} />
+        <Route path="/pages/page/post/edit" element={<PostEdit postData={postData} />} />
+        <Route path="/pages/page/post/new" element={<PostCreate />} />
+        <Route path="*" element={<PageNotFound />} />
+      </Route>
+    </Routes>
   );
 }
